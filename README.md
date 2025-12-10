@@ -89,5 +89,11 @@ Deploy wallet: `npm run deploy-wallet`
 
 3) Key recovery: 2FA, but in multisig extension there is an option to change the control keys. Possible cooldown period when the other party can cancel the key change.
 
-4) Key compromise: An extension with a new key is added, extension prohibits wallet signature;
+4) Key compromise: An extension with a new key is added, extension prohibits wallet signature;  "extends": "./tsconfig",
+  "compilerOptions": {
+    "types": ["jest"]
+  },
+  "include": ["src/**/*"],
+  "exclude": []
+}
 
